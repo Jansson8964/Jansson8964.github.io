@@ -16,23 +16,34 @@
   <meta name="author" content="Yang Song">
   <meta name="keywords" content="">
   
-    <meta name="description" content="比较好用的解决方法，能够同时在 Hexo 博客和 Markdown 编辑器中正确显示图片。 首先，根据 Hexo 官方文档，在 _config.yaml 将 post_asset_folder 选项设为 true 。然后，安装插件 hexo-image-link，安装命令为： 123$ npm install hexo-image-link --saveBASH  如果安装了 hexo-asset">
+    <meta name="description" content="面向 ChatGPT 编程指北（适用新手)  除去靠编程吃饭的程序员，对普通人而言，编程依然是一项神秘、有趣、实用的技能 然而，学习编程的曲线总是陡峭而充满了挫折感 好在，我们现在有了 ChatGPT。最近一番体验下来，惊喜连连 分享一些小小的心得，欢迎指正  面向 ChatGPT 编程基本流程： 1.指明代码语言（如 Python、JS）2.详细阐述背景信息和目的需求3.给出其他辅助信息运行代">
 <meta property="og:type" content="article">
-<meta property="og:title" content="解决hexo无法插入图片的问题">
-<meta property="og:url" content="http://example.com/2023/03/03/%E8%A7%A3%E5%86%B3hexo%E6%97%A0%E6%B3%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:title" content="chatGPT编程指北">
+<meta property="og:url" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/index.html">
 <meta property="og:site_name" content="Jansson">
-<meta property="og:description" content="比较好用的解决方法，能够同时在 Hexo 博客和 Markdown 编辑器中正确显示图片。 首先，根据 Hexo 官方文档，在 _config.yaml 将 post_asset_folder 选项设为 true 。然后，安装插件 hexo-image-link，安装命令为： 123$ npm install hexo-image-link --saveBASH  如果安装了 hexo-asset">
+<meta property="og:description" content="面向 ChatGPT 编程指北（适用新手)  除去靠编程吃饭的程序员，对普通人而言，编程依然是一项神秘、有趣、实用的技能 然而，学习编程的曲线总是陡峭而充满了挫折感 好在，我们现在有了 ChatGPT。最近一番体验下来，惊喜连连 分享一些小小的心得，欢迎指正  面向 ChatGPT 编程基本流程： 1.指明代码语言（如 Python、JS）2.详细阐述背景信息和目的需求3.给出其他辅助信息运行代">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2023/03/03/%E8%A7%A3%E5%86%B3hexo%E6%97%A0%E6%B3%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E9%97%AE%E9%A2%98/image-20230303184822523.png">
-<meta property="article:published_time" content="2023-03-03T10:45:27.000Z">
-<meta property="article:modified_time" content="2023-03-03T10:48:41.739Z">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW595OacAAbNF-.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW65mIaMAAP406.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW7qn_akAIGprH.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW8SR4agAAQg9w.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW95f_aEAAuKZL.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW96XdakAEZxj5.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW-1vBaEAACCvZ.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW-2YHaMAA4UD2.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAbKWaEAAjqH3.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAcQtaIAAnLfp.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAdDmakAA0B_e.jpeg">
+<meta property="og:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAitqaEAAfCIU.jpeg">
+<meta property="article:published_time" content="2023-03-05T06:28:10.000Z">
+<meta property="article:modified_time" content="2023-03-05T06:50:34.656Z">
 <meta property="article:author" content="Yang Song">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2023/03/03/%E8%A7%A3%E5%86%B3hexo%E6%97%A0%E6%B3%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E9%97%AE%E9%A2%98/image-20230303184822523.png">
+<meta name="twitter:image" content="http://example.com/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW595OacAAbNF-.jpeg">
   
   
   
-  <title>解决hexo无法插入图片的问题 - Jansson</title>
+  <title>chatGPT编程指北 - Jansson</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -198,7 +209,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="解决hexo无法插入图片的问题"></span>
+            <span id="subtitle" data-typed-text="chatGPT编程指北"></span>
           
         </div>
 
@@ -209,8 +220,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-03-03 18:45" pubdate>
-          March 3, 2023 pm
+        <time datetime="2023-03-05 14:28" pubdate>
+          March 5, 2023 pm
         </time>
       </span>
     
@@ -221,7 +232,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          356 words
+          1.2k words
         
       </span>
     
@@ -232,7 +243,7 @@
         
         
         
-          3 mins
+          11 mins
         
       </span>
     
@@ -270,22 +281,109 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">解决hexo无法插入图片的问题</h1>
+            <h1 style="display: none">chatGPT编程指北</h1>
             
             
               <div class="markdown-body">
                 
-                <p>比较好用的解决方法，能够同时在 Hexo 博客和 Markdown 编辑器中正确显示图片。</p>
-<p>首先，根据 Hexo 官方文档，在 <code>_config.yaml</code> 将 <code>post_asset_folder</code> 选项设为 <code>true</code> 。然后，安装插件 <code>hexo-image-link</code>，安装命令为：</p>
-<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs maxima">$ npm install hexo-<span class="hljs-built_in">image</span>-link --<span class="hljs-built_in">save</span><br><br>BASH<br></code></pre></td></tr></table></figure>
+                <ul>
+<li>面向 ChatGPT 编程指北（适用新手)</li>
+</ul>
+<p>除去靠编程吃饭的程序员，对普通人而言，编程依然是一项神秘、有趣、实用的技能 然而，学习编程的曲线总是陡峭而充满了挫折感 好在，我们现在有了 ChatGPT。最近一番体验下来，惊喜连连 分享一些小小的心得，欢迎指正</p>
+<ul>
+<li><p>面向 ChatGPT 编程基本流程：</p>
+<p>1.指明代码语言（如 Python、JS）<br>2.详细阐述背景信息和目的需求<br>3.给出其他辅助信息运行代码、反馈错误，不断改进，直至成功<br>注意：很少一蹴而就，往往需要多轮沟通、改进，甚至推翻重来</p>
+</li>
+<li><p>真实编程任务案例</p>
+<p>我对 JS 不熟，但最近却在 ChatGPT 帮助下写了一些 JS 脚本，试举一例</p>
+<p>需求：</p>
+<p>写一个能在 Google Sheets 里调用的函数，用于查询某个钱包地址的USD价值总金额</p>
+<p>Zerion 官方文档给出了一段 JS 版本的代码，如何转换成我们需要的格式呢？</p>
+</li>
+</ul>
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW595OacAAbNF-.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
 
-<p>如果安装了 <code>hexo-asset-img</code> 插件，需要将其卸载：</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs stylus">$ npm uninstall <span class="hljs-attr">--save</span> hexo-asset-<span class="hljs-selector-tag">img</span><br><br>BASH<br></code></pre></td></tr></table></figure>
 
-<p>然后，配置 Markdown 编辑器 Typora 如下：</p>
-<img src="/2023/03/03/%E8%A7%A3%E5%86%B3hexo%E6%97%A0%E6%B3%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E9%97%AE%E9%A2%98/image-20230303184822523.png" srcset="/img/loading.gif" lazyload class="" title="img">
 
-<p>配置完成后，在 Typora 中粘贴图片时，Typora 就会自动将图片保存到与文件名同名的目录下，并在 Markdown 中使用相对路径引用图片。这样，我们就可以在 Hexo 博客和 Typora 中同时看到图片。</p>
+
+
+<ul>
+<li><p>提需求</p>
+<p>自然语言编程第一步：向 ChatGPT 提出明确需求</p>
+<p>如：贴出原始代码，告知 GPT 把代码转换为在 Google Sheets 中可运行的代码（其代码和普通JS有细微差异）</p>
+<p>并且要提取钱包地址作为参数，用于函数调用</p>
+<p>ChatGPT 马上就给出了完整代码，但明显不符合需求，我们继续</p>
+</li>
+</ul>
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW65mIaMAAP406.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW7qn_akAIGprH.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+
+
+<ul>
+<li><p>改代码</p>
+<p>ChatGPT 忘了提取钱包地址作为参数，我们明确告诉他这点</p>
+</li>
+</ul>
+<p>  很快， ChatGPT 就给出了改好的代码，并附赠了如何在 Google Sheets 中调用此函数的方法</p>
+<p>  不过还没完，这才只是第一步。这离我们需要的结果，还有一步之遥，下面继续</p>
+  <img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW8SR4agAAQg9w.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+
+
+<ul>
+<li>细化目标需求</li>
+</ul>
+<p>  我们需要提取钱包USD余额，但返回结果是完整的JSON内容，怎么办？</p>
+<p>  放大招：贴核心部分的 JSON，让 GPT 提取结果，并修改前面代码</p>
+<p>  GPT 马上心领神会，给出了只提取 Wallet 数据的代码</p>
+<p>  可惜，运行之后，报错了？别慌，有后招</p>
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW95f_aEAAuKZL.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW96XdakAEZxj5.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+
+
+<ul>
+<li><p>有错改错</p>
+<p>几乎没有程序员不写 bug，看来这个定律在 ChatGPT 身上也适用</p>
+<p>好处是，只要你贴出报错提示，ChatGPT 马上知错就改</p>
+<p>提示：这里是因为 ChatGPT 没有使用 Google Apps Script 专有的 fetch 函数导致的问题</p>
+<p>现在核心功能已实现，我们再给 ChatGPT 加点难度</p>
+</li>
+</ul>
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW-1vBaEAACCvZ.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqW-2YHaMAA4UD2.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+
+
+<ul>
+<li><p>增加难度</p>
+<p>经过简单分析， Zerion API 的授权方式是把 API Key 做简单的 Base64 加密</p>
+<p>目标：创建一个根据 API Key 生成授权码的函数，以及添加一个轮询多个 API Key 的功能</p>
+<p>大约经过四个来回，ChatGPT 完整实现了前面的2个需求，把代码整合到前面的代码中，即可得到最终的完整代码</p>
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAbKWaEAAjqH3.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAcQtaIAAnLfp.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAdDmakAA0B_e.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像"></li>
+</ul>
+<img src="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/FqXAitqaEAAfCIU.jpeg" srcset="/img/loading.gif" lazyload class="" title="图像">
+
+
+
+<ul>
+<li><p>总结</p>
+<p>想不到使用自然语言编程的“梦想”在 ChatGPT 身上得以实现，让我们这些小白用户也能体验到编程乐趣</p>
+<p>扎实的代码功底 + 超强的自然语言理解能力 + 超强的上下文会话保持功能 &#x3D; 循序渐进的面向 ChatGPT 编程体验</p>
+<p>除了 Python、JS等，ChatGPT 甚至在 Solidity 合约方面也能一试身手</p>
+</li>
+<li><p>其他提醒</p>
+<p>重要的是把需求描述清楚<br>ChatGPT 给的代码可能有 bug，务必多做测试<br>可以进行多轮对话，不断明确&#x2F;改进需求<br>可以把 API 返回结果发给GPT，让他帮你提取目标数据</p>
+</li>
+</ul>
 
                 
               </div>
@@ -303,8 +401,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>解决hexo无法插入图片的问题</div>
-      <div>http://example.com/2023/03/03/解决hexo无法插入图片的问题/</div>
+      <div>chatGPT编程指北</div>
+      <div>http://example.com/2023/03/05/chatGPT编程指北/</div>
     </div>
     <div class="license-meta">
       
@@ -316,7 +414,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>March 3, 2023</div>
+          <div>March 5, 2023</div>
         </div>
       
       
@@ -348,18 +446,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/03/05/chatGPT%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8C%97/" title="chatGPT编程指北">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">chatGPT编程指北</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/03/03/%E8%A7%A3%E6%9E%84%E6%89%80%E8%B0%93%E7%9A%84%E7%99%BE%E5%B9%B4%E5%B1%88%E8%BE%B1%E5%8F%B2/" title="解构所谓的百年屈辱史">
-                        <span class="hidden-mobile">解构所谓的百年屈辱史</span>
+                      <a href="/2023/03/03/%E8%A7%A3%E5%86%B3hexo%E6%97%A0%E6%B3%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E9%97%AE%E9%A2%98/" title="解决hexo无法插入图片的问题">
+                        <span class="hidden-mobile">解决hexo无法插入图片的问题</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
