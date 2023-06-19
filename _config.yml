@@ -8,7 +8,7 @@ subtitle: 'Jansson'
 description: "Jansson's blog"
 keywords:
 author: Yang Song
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -104,5 +104,5 @@ theme: fluid
 deploy:
   type: git
   repo: https://github.com/Jansson8964/Jansson8964.github.io.git
-  branch: main 
+  branch: master 
   token: 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
